@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exploring Mars Missions</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body { font-family: Arial, sans-serif; }
+        table { width: 100%; border-collapse: collapse; }
+        table, th, td { border: 1px solid black; }
+        th, td { padding: 8px; text-align: left; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Exploring Mars Missions</h1>
+        <nav>
+            <ul>
+                <li><a href="#missions">Mars Missions</a></li>
+                <li><a href="#photos">Photos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="missions">
+        <h2>Notable Mars Missions</h2>
+        <h3>Curiosity Rover</h3>
+        <p>The Curiosity rover has been exploring Mars since 2012. It has provided invaluable data about the planet's geology and atmosphere.</p>
+
+        <h3>Perseverance Rover</h3>
+        <p>Perseverance landed on Mars in February 2021 and is studying the planet's geology and searching for signs of ancient life.</p>
+
+        <h4>Mission Objectives</h4>
+        <ul>
+            <li>Analyze Mars' geology</li>
+            <li>Search for signs of past life</li>
+            <li>Collect soil and rock samples</li>
+        </ul>
+    </section>
+
+    <section id="photos">
+        <h2>Photos of Mars</h2>
+        <img src="mars_surface.jpg" alt="Mars Surface" width="600">
+    </section>
+
+    <section id="table">
+        <h2>Mission Comparison Table</h2>
+        <table>
+            <tr>
+                <th>Mission</th>
+                <th>Launch Date</th>
+                <th>Landing Date</th>
+                <th>Objectives</th>
+            </tr>
+            <tr>
+                <td>Curiosity</td>
+                <td>2011</td>
+                <td>2012</td>
+                <td>Study geology and climate</td>
+            </tr>
+            <tr>
+                <td>Perseverance</td>
+                <td>2020</td>
+                <td>2021</td>
+                <td>Search for ancient life and collect samples</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="mailto:example@example.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Exploring Mars Missions</p>
+    </footer>
+</body>
+</html>
